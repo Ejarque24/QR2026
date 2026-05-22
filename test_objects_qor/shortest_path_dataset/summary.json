@@ -1,0 +1,16 @@
+{
+  "objects": [
+    "object1",
+    "object2",
+    "object3",
+    "object4",
+    "object5",
+    "object6"
+  ],
+  "max_sequence_len": 2,
+  "graph_depth": 3,
+  "sample_count": 444,
+  "distractor_count": 1332,
+  "solvable_count": 297,
+  "unsolved_count": 147
+}

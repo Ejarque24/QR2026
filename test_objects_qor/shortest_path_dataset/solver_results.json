@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "sample_count": 4,
+    "solvable_count": 2,
+    "unsolved_count": 2,
+    "max_depth": 3,
+    "initial_objects": [
+      "object1"
+    ]
+  },
+  "results": [
+    {
+      "sample_id": "object1__original__exact",
+      "initial_object": "object1",
+      "sequence": [],
+      "target_mode": "exact",
+      "target_is_distractor": false,
+      "solvable": true,
+      "shortest_path_count": 1,
+      "shortest_path_length": 0,
+      "all_shortest_paths": [
+        []
+      ],
+      "graph_state_count": 24,
+      "graph_depth_limit": 3
+    },
+    {
+      "sample_id": "object1__original__mirror_x",
+      "initial_object": "object1",
+      "sequence": [],
+      "target_mode": "mirror_x",
+      "target_is_distractor": true,
+      "solvable": false,
+      "shortest_path_count": 0,
+      "shortest_path_length": null,
+      "all_shortest_paths": [],
+      "graph_state_count": 24,
+      "graph_depth_limit": 3
+    },
+    {
+      "sample_id": "object1__towards_up__exact",
+      "initial_object": "object1",
+      "sequence": [
+        "towards_up"
+      ],
+      "target_mode": "exact",
+      "target_is_distractor": false,
+      "solvable": true,
+      "shortest_path_count": 1,
+      "shortest_path_length": 1,
+      "all_shortest_paths": [
+        [
+          "towards_up"
+        ]
+      ],
+      "graph_state_count": 24,
+      "graph_depth_limit": 3
+    },
+    {
+      "sample_id": "object1__towards_up__mirror_z",
+      "initial_object": "object1",
+      "sequence": [
+        "towards_up"
+      ],
+      "target_mode": "mirror_z",
+      "target_is_distractor": true,
+      "solvable": false,
+      "shortest_path_count": 0,
+      "shortest_path_length": null,
+      "all_shortest_paths": [],
+      "graph_state_count": 24,
+      "graph_depth_limit": 3
+    }
+  ]
+}
